@@ -1,0 +1,65 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 1%;
+}
+
+ th {
+ 	color:floralwhite;
+ 	/*font-family: fantasy;*/
+ 	border: 4px solid #DDE0CE;
+    text-align: left;
+    padding: 8px;
+    font-size: x-large;
+    background: linear-gradient(to bottom, rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%);
+}
+
+td{
+	background: linear-gradient(to bottom, #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%);
+	/*font-family: fantasy;*/
+	border: 4px solid #DDE0CE;
+    text-align: left;
+    padding: 8px;
+    font-size: large;	
+}
+
+#name{
+
+    width: 70%!important;
+}
+
+	
+
+#count{
+
+margin-right: 7%;
+float :right;
+margin-top: -1%;
+
+}
+
+h1{
+	color:floralwhite;
+ 	/*font-family: fantasy !important ;*/
+ 	border: 4px solid #DDE0CE;
+    text-align: left;
+	padding-left: 20%;
+	padding: 8px;
+    font-size: x-large;
+    height: 108px;
+    background: linear-gradient(to bottom, rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%);
+}
+
+#number{
+	/*font-family: fantasy;*/
+	padding-left: 38%;
+    color: black;
+    font-size: 600%;
+    margin-top: -25%;
+    background: linear-gradient(to bottom, #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%);
+	border: 4px solid #DDE0CE;
+    text-align: left;
+    
+
+}
