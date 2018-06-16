@@ -1,6 +1,6 @@
 A mini signin app that registers everyday customers at an IT support office. 
 
-The app is deployed in Heroku and built using Node.js and Mongodb with HTML5 and CSS3
+The app is deployed on Heroku and built using Node.js , Mongodb with HTML5 and CSS3
 
 On a localhost the app is configures to run on port 5000
 
