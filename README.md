@@ -8,7 +8,7 @@ On a localhost the app is configures to run on port 5000
 
 <u>https://singnin006.herokuapp.com/</u>
 
-The page that lists all the customers of that particular day 
+The page that lists all the customers for that specific day 
 
 <u>https://singnin006.herokuapp.com/signin.html<u>
 
