@@ -9,7 +9,7 @@ var r = [];
 var x = [];
 var y = [];
 var port = process.env.PORT || 5000
-var url = 'mongodb://heroku_wdc6qbx0:23a0thcm2i2343s0527tpu4u3a@ds157621.mlab.com:57621/heroku_wdc6qbx0';
+var url = 'mongodb+srv://karthik:hundredgirls7@cluster0.bqaff.mongodb.net';
 //var url = 'mongodb://localhost:27017/signin';
 var db;
 
@@ -21,12 +21,13 @@ app.use(bodyParser.json());
 app.use(express.static('.'));
 
 // Initialize connection once
-MongoClient.connect(url, function(err, database) {
+MongoClient.connect(url, function(err, client) {
   if(err) throw err;
 
-  db = database;
+  db = client.db('myFirstDatabase');
 
-  // Start the application after the database connection is ready
+
+    // Start the application after the database connection is ready
 app.listen(port, function() {
     console.log("listening.....");
 });
