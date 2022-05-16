@@ -29,7 +29,7 @@ MongoClient.connect(url, function(err, client) {
 
     // Start the application after the database connection is ready
 app.listen(port, function() {
-    console.log("listening....");
+    console.log("listening.....");
 });
 });
 
